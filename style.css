@@ -1,0 +1,607 @@
+#logo {
+    height: 80px;
+    width: 100px;
+}
+
+#navbarlogo {
+    margin-left: -31px;
+}
+
+#navflex {
+    width: 100px;
+    padding-right: 20px;
+}
+
+#poster #img1 {
+    height: 500px;
+}
+
+#img2 {
+    height: 500px;
+}
+
+#img3 {
+    height: 500px;
+}
+
+#bookingimg1 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg2 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg3 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg4 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg5 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg6 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg7 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg8 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#container1 {
+    justify-content: space-around;
+}
+
+#container2 {
+    justify-content: space-around;
+}
+
+#navbarlogo {
+    font-family: 'Krona One', sans-serif;
+}
+
+.card-body {
+    font-family: 'Belanosima', sans-serif;
+}
+
+h3 {
+    font-family: 'Prompt', sans-serif;
+}
+
+#navbarSupportedContent {
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.card-title {
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.card-text {
+    font-family: 'Prompt', sans-serif;
+}
+
+#cardbtn {
+    border-radius: 10px;
+    font-family: 'Belanosima', sans-serif;
+
+}
+
+#cardbtn:hover {
+    background-color: rgba(255, 251, 0, 0.938);
+    transform: scale(1.5);
+    transition: all 1.5s ease;
+}
+
+#card:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1.7s ease;
+}
+
+.streambg1 {
+    margin-top: -700px;
+}
+
+.streambg2 {
+    margin-top: -750px;
+}
+
+.streambg3 {
+    margin-top: -700px;
+}
+
+.streambg3 img {
+    height: 100%;
+}
+
+.streambg4 {
+    margin-top: -750px;
+}
+
+#streamcard {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 150px;
+    background: transparent;
+}
+
+#streamcard:hover {
+    background-color: rgb(250, 165, 8);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1.7s ease;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.streamcard1 {
+    height: 445px;
+    text-decoration: none;
+}
+
+.streamcard2 {
+    height: 445px;
+    text-decoration: none;
+}
+
+.streamcard3 {
+    height: 445px;
+    text-decoration: none;
+}
+
+.streamcard4 {
+    height: 445px;
+    text-decoration: none;
+}
+
+.streamcard-body {  
+    margin-top: -240px;
+    color: transparent;
+}
+
+.streamcard-body:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    transform: scale(1);
+    transition: all 1.7s ease;
+    
+}
+
+.bookingcard {
+    margin-left: 300px;
+    width: 1500px;
+}
+
+#availablity {
+    text-align: right;
+}
+
+#availablity img {
+    height: 20px;
+    width: 20px;
+}
+
+.social-login button {
+    margin-left: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-body input {
+    border-radius: 10px;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(243, 215, 60);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcon a i {
+    font-size: 1em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcon a:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    justify-content: center;
+}
+
+.footernav ul {
+    text-align: center;
+    list-style: none;
+}
+
+.footernav ul li a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+@media(max-width: 700px) {
+    .footernav ul {
+        flex-direction: column;
+    }
+
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media(max-width:700px) {
+    .social-login button {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media(max-width:700px) {
+    .social-login h6 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.footernav1 {
+    margin: 0;
+}
+
+.footernav1 ul {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.footernav1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav1 ul li a:hover {
+    opacity: 1;
+    color: rgb(245, 207, 36);
+}
+
+.form {
+    border: 2px solid;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+@media (min-width:320px){
+    body {
+        overflow-x: hidden;
+    }
+}
+
+
+#adimg img {
+    margin-left: px;
+    border-radius: 30px;
+}
+
+@media (max-width:320px) {
+    .navbar-brand {
+        width: 50px;
+        height: 50px;
+        margin-left: -15px;
+        margin-top: -70px;
+    }
+
+    #navbarlogo {
+        margin-left: -40px;
+        font-size: small;
+    }
+
+    .navbar-toggler {
+        margin-top: 10 ;
+    }
+
+}
+
+.conformationform {
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.form input {
+    border: solid;
+    border-radius: 20px;
+}
+
+.bgimgforconfirm img {
+    width: 100%;
+    margin-top: -100px;
+    position: absolute;
+
+}
+
+.conform-form .form {
+    position: relative;
+    background: grey;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgba(225,255,255,0.2),
+    15px 15px 15px rgba(0,0,0,0.1),
+    inset -5px 5px 5px rgba(225,255,255,0.2);
+}
+.form-label textarea{
+    
+    border-radius: 20px;
+}
+.confirm-button button{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    margin-left: 150px;
+}
+.confirm-button button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1);
+    transition: all 1.5s ease;
+}
+.moviefilter{
+    display: flex;
+}
+.filter{
+    border: solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+.filter h2{
+    text-align: center;
+}
+.filter select{
+    margin-left: 40px;
+    border-radius: 10px;
+    max-width: 100px;
+}
+
+.filter ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+#bookingimg1-1 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-2{
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-3 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-4 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-5 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-6 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-7 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#bookingimg1-8 {
+    height: 200px;
+    border-radius: 10px;
+}
+
+#container1-1 {
+    justify-content: space-around;
+}
+
+#container2-1 {
+    justify-content: space-around;
+}
+.upcoming{
+    display: flex;
+    
+}
+.cards img{
+    height: 400px;
+}
+.movieslid img{
+    height: 500px;
+    width: 1000px;
+    margin-left: 20px;
+
+}
+.paymentbody{
+    display: flex;
+
+}
+.paymentbody1{
+    width: 500px;
+}
+.paymentbody2{
+    width: 500px;
+}
+.card1{
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 100px;
+    border: solid;
+    background-color: rgb(233, 188, 43);
+}
+
+.form2 img{
+    width: 150px;
+}
+.form1:hover{
+    background-color: black;
+    color: rgb(233, 188, 43);
+    transform: scale(1);
+    transition: all 1.5s ease;
+}
+.form2:hover{
+    background-color: black;
+    color: rgb(233, 188, 43);
+    transform: scale(1);
+    transition: all 1.5s ease;
+}
+.modal-footer button{
+    background-color: rgb(233, 188, 43);
+    text-decoration: none;
+}
+.modal-footer button a{
+    text-decoration: none;
+    color: black    ;
+}
+@media(max-width:425px){
+    .filter{
+
+    }
+    .movieslid img{
+        width: 100px;
+        /* display: none; */
+    }
+}
+@media(width:768px){
+    .filter{
+
+    }
+    .movieslid img{
+        width: 400px;
+        /* display: none; */
+    }
+}
+@media(width:1024px){
+    .filter{
+
+    }
+    .movieslid img{
+        width: 650px;
+        /* display: none; */
+    }
+}
+
+.loginbnt a{
+    text-decoration: none;
+    color: black;
+}   
+
+@media (max-width:320px) {
+    .carousel-inner{
+        margin-top: 10px;
+        height: 300px;
+    }
+    
+}
+section{
+    text-align: center;
+    
+}
+#screenside button{
+    width: 6.50px;
+}
+.signin{
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 600px;
+    border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+.signin h3{
+    text-align: center;
+}
+.signin h6{
+    text-align: left;
+    margin-left: 70px;
+}
+.signin input{
+    width: 300px;
+    border-radius: 10px;
+}

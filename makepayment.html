@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima&family=Indie+Flower&family=Krona+One&family=Prompt:wght@300&display=swap"
+        rel="stylesheet">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/7dc73f21d5.js" crossorigin="anonymous"></script>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Js Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link href="../movie ticket/style.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../movie ticket/index.html"><img id="logo"
+                    src="../movie ticket/img/logo.webp"><b id="navbarlogo">TICKET BOKING </b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../movie ticket/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../movie ticket/movie.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../movie ticket/Stream.html">Stream</a>
+                    </li>
+
+                </ul>
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+
+                            <button id="navflex" type="button" class="btn btn-warning">Search</button>
+
+                            <div id="signinbuttton">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Sign In
+                                </button>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Sign-In</h5>
+                                            <div class="social-login">
+                                                <br><br>
+                                                <h6>with your social network</h6>
+                                                <button><img
+                                                        src="../movie ticket/img/stream page/icons8-facebook-48.png"></button>
+                                                <button><img
+                                                        src="../movie ticket/img/stream page/icons8-google-48.png"></button>
+                                                <button><img
+                                                        src="../movie ticket/img/stream page/icons8-twitter-48.png"></button>
+                                                <br>
+                                                <h6 style="text-align: center;">Or</h6>
+
+                                            </div>
+
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <label>User ID </label><br>
+                                            <input type="text" placeholder="Username" required><br>
+                                            <label>Password</label><br>
+                                            <input type="password" placeholder="Password" required>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-warning">Sign-In</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+                <div>
+                    <form class="d-flex">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Sign Up
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Sign-Up</h5>
+                                        <div class="social-login">
+                                            <br><br>
+                                            <h6>with your social network</h6>
+                                            <button><img
+                                                    src="../movie ticket/img/stream page/icons8-facebook-48.png"></button>
+                                            <button><img
+                                                    src="../movie ticket/img/stream page/icons8-google-48.png"></button>
+                                            <button><img
+                                                    src="../movie ticket/img/stream page/icons8-twitter-48.png"></button>
+                                            <br>
+                                            <h6 style="text-align: center;">Or</h6>
+
+                                        </div>
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label>User ID </label><br>
+                                        <input type="text" placeholder="Username" required><br>
+                                        <label>Password</label><br>
+                                        <input type="password" placeholder="Password" required>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-warning">Sign-In</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="paymentbody">
+        <div class="paymentbody1">
+        <form class="form1">
+            <h3> Billing Address</h3>
+            <span>Name</span> <br>
+            <input type="text" name="" placeholder="Enter You Name" required autofocus><br>
+            <span>PhoneNumber</span><br>
+            <input type="number" name="" placeholder="Enter You PhoneNumber" required><br>
+            <span>Email</span><br>
+            <input type="email" name="" placeholder="Enter You Email" required><br>
+            <span>Address</span><br>
+            <input type="text" name="" placeholder="Enter You Address" required><br>
+            <span>City</span><br>
+            <input type="text" name="" placeholder="Enter You City" required><br><br>
+            <div>
+                <label>
+                    <span>State </span>
+                    <select>
+                        <option>Choose Your State</option>
+                        <optiom>TamilNadu</optiom>
+                        <optiom>Kerala</optiom>
+                        <optiom>Andhra pradesh</optiom>
+                        <optiom>Karnataka</optiom>
+                    </select>
+                </label>&nbsp;&nbsp;
+                <label>
+                    <span>Zip Code</span>
+                    <input type="number" placeholder="Zip Code" required>
+                </label>
+            </div>
+        </form><br>
+    </div>
+    <div class="paymentbody2">
+        <form class="form2">
+            <h3>Payment</h3>
+
+            <h5> Accepted Card</h5>
+            <img src="../movie ticket/img/payment1.png"><br><br>
+            <span>Name on Card</span> <br>
+            <input type="text" name="" placeholder="Enter You Name" required><br>
+            <span>Card Number</span><br>
+            <input type="number" name="" placeholder="1111-2222-3333-4444" required><br>
+            <span>Exp Month</span><br>
+            <input type="text" name="" placeholder="Exp Month" required><br>
+            <span>Exp Year</span><br>
+            <input type="number" name="" placeholder="Exp Year" required><br><br>
+            <span>CVV</span>&nbsp;
+            <input type="password" name="" placeholder="CVV" required><br><br>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+    </div>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,395 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima&family=Indie+Flower&family=Krona+One&family=Prompt:wght@300&display=swap"
+        rel="stylesheet">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/7dc73f21d5.js" crossorigin="anonymous"></script>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Js Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <link href="../movie ticket/style.css" rel="stylesheet">
+    <title>Movies</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../movie ticket/index.html"><img id="logo"
+                    src="../movie ticket/img/logo.webp"><b id="navbarlogo">TICKET BOKING </b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../movie ticket/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../movie ticket/Stream.html">Stream</a>
+                    </li>
+
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button id="navflex" type="button" class="btn btn-warning">Search</button>
+                  <button id="navflex" type="button" class="btn btn-warning"><a href=""
+                      style="color: black;">Sign-In</a> </button>
+                  <button id="navflex" type="button" class="btn btn-warning"><a href="" style="color: black;"> Sign-Up</a>
+                  </button>
+                </div>
+              </form>
+             </div>
+        </div>
+    </nav><br>
+    <div class="moviefilter">
+        <div class="filter">
+            <h2> Filter</h2><br>
+            <ul>
+                <h3>
+                    <ul>Language..</ul>
+                </h3>
+                <li><input type="radio">&nbsp;&nbsp;<a>All</a></li>
+                <li><input type="radio">&nbsp;&nbsp;<a>Tamil</a></li>
+                <li><input type="radio">&nbsp;&nbsp;<a>English</a></li>
+                <li><input type="radio">&nbsp;&nbsp;<a>Telugu</a></li>
+                <li><input type="radio">&nbsp;&nbsp;<a>Malaiyalam</a></li>
+                <li><input type="radio">&nbsp;&nbsp;<a>Hindi</a></li>
+
+            </ul><br><br><br>
+            <div class="format">
+                <ul>
+                    <h3>
+                        <ul>Format</ul>
+                    </h3>
+                    <li><input type="radio">&nbsp;&nbsp;<a>All</a></li>
+                    <li><input type="radio">&nbsp;&nbsp;<a>I-MAX</a></li>
+                    <li><input type="radio">&nbsp;&nbsp;<a>3D</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="movieslid">
+
+            <img src="../movie ticket/img/img6.jpg">
+            
+        </div>
+    </div><br>
+<div>
+    <h2>New Arrival..</h2>
+</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container1">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;margin: auto;">
+                                            <img id="bookingimg1" src="../movie ticket/img/batman.jpg"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Batman</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning">
+                                                    <a href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a>
+                                                </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;margin: auto;">
+                                            <img id="bookingimg2" src="../movie ticket/img/insidious-5.webp"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Insidious-5</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg3" src="../movie ticket/img//maamannan.avif"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Maamannan</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg4" src="../movie ticket/img/spiderman.jpg"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Spider-Man Across</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from </p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container2">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg5" src="../movie ticket/img/mission impossible.jpg"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Mission Inpossible</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg6" src="../movie ticket/img/Por-Thozhil1.jpg"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Por-Thozhil</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg7" src="../movie ticket/img/The-Flash-Movie.webp"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">The-Flash</h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-3">
+                                        <div id="card" class="card" style="width: 300px;">
+                                            <img id="bookingimg8" src="../movie ticket/img/Indian jones.jpg"
+                                                class="card-img-top">
+                                            <div class="card-header">
+                                                <small class="text-muted"><i class="fa-solid fa-star"> &nbsp;&nbsp;
+                                                        8.0</i>&nbsp; &nbsp; &nbsp;
+                                                    <i class="fa-solid fa-thumbs-up">&nbsp;&nbsp;2.25k</i></small>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Indiana Jones </h4>
+                                                <p class="card-text">Skin masks help us to make are skin fresh and also
+                                                    they protect our skin from the harm rays of sun</p>
+                                                <button type="button" class="btn btn-warning"><a
+                                                        href="../movie ticket/BookNow.html" style="color: black;">Book
+                                                        Now</a> </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#inam" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+
+    <div>
+        <h2>Upcoming Movies....</h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 g-3">
+        <div class="col">
+            <div class="cards">
+                <img src="../movie ticket/img/oppenheimer-poster.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oppenheimer</h5>
+                    <p class="card-text">English • Languages : Audio(1), Subtitles(1) <br> 1h 55m • Action, Thriller •
+                        13+ <br>21 Jul, 2023</p><br>
+                    <button id="cardbtn" type="button" class="btn btn-warning btn-sm">Notify Me </button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards">
+                <img src="../movie ticket/img/brabie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Barbie</h5>
+                    <p class="card-text">English • Languages : Audio(1), Subtitles(1) <br> 2h 14m •
+                        Drama • UA <br>21 Jul, 2023</p><br>
+                    <button id="cardbtn" type="button" class="btn btn-warning btn-sm">Notify Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards">
+                <img src="../movie ticket/img/BRO.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bro</h5>
+                    <p class="card-text">Telugu • Languages : Audio(1), Subtitles(3) <br> 1h 39m • Action • UA <br>28
+                        Jul, 2023 </p><br>
+                    <button id="cardbtn" type="button" class="btn btn-warning btn-sm">Notify Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="cards">
+                <img src="../movie ticket/img/jawaan.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jawaan </h5>
+                    <p class="card-text">Hindi,Tamil,Telugu • Languages : Audio(3), Subtitles(5) <br> 1h 50m • Action, Thriller•
+                        13+ <br>17 sep, 2023 </p><br>
+                    <button id="cardbtn" type="button" class="btn btn-warning btn-sm">Notify Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="SocialIcon">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Stream</a></li>
+                    <li><a href="">Bookings</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Rahul</span></p>
+        </div>
+    </footer>
+
+        
+</body>
+
+</html>
